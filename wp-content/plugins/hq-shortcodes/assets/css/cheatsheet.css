@@ -1,0 +1,88 @@
+#hq-cheatsheet-screen table {
+    margin: 30px 0;
+    margin-bottom: 1.11111rem;
+    border: solid 1px #ddd;
+    background: #fff;
+}
+#hq-cheatsheet-screen table thead {
+    background: #f5f5f5;
+}
+#hq-cheatsheet-screen table thead tr th,
+#hq-cheatsheet-screen table thead tr td {
+    padding: 0.44444rem 0.55556rem 0.55556rem;
+    color: #222;
+    font-weight: bold;
+}
+#hq-cheatsheet-screen table tfoot {
+    background: #f5f5f5;
+}
+#hq-cheatsheet-screen table tfoot tr th,
+#hq-cheatsheet-screen table tfoot tr td {
+    padding: 0.44444rem 0.55556rem 0.55556rem;
+    color: #222;
+    font-weight: bold;
+}
+#hq-cheatsheet-screen table tr th,
+#hq-cheatsheet-screen table tr td {
+    padding: 0.5rem 0.55556rem;
+    color: #222;
+    text-align: left;
+}
+#hq-cheatsheet-screen table tr.even,
+#hq-cheatsheet-screen table tr.alt,
+#hq-cheatsheet-screen table tr:nth-of-type(even) {
+    background: #f9f9f9;
+}
+#hq-cheatsheet-screen table thead tr th,
+#hq-cheatsheet-screen table tfoot tr th,
+#hq-cheatsheet-screen table tfoot tr td,
+#hq-cheatsheet-screen table tbody tr th,
+#hq-cheatsheet-screen table tbody tr td,
+#hq-cheatsheet-screen table tr td {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#hq-cheatsheet-screen table .hq-shortcode-icon {
+    display: inline-block;
+    width: 24px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#hq-cheatsheet-screen table .hq-shortcode-desc {
+    font-size: 0.8em;
+    color: #777;
+    margin: 5px 0 0 0;
+    font-style: normal;
+}
+
+#hq-cheatsheet-screen table .hq-shortcode-attribute {
+    margin-top: 1.5em;
+    color: #666;
+}
+#hq-cheatsheet-screen table .hq-shortcode-attribute:first-child { margin-top: 0; }
+#hq-cheatsheet-screen table .hq-shortcode-attribute p { margin: 5px; }
+#hq-cheatsheet-screen table .hq-shortcode-attribute strong,
+#hq-cheatsheet-screen table .hq-shortcode-attribute em {
+    color: #000;
+    font-style: normal;
+}
+#hq-cheatsheet-screen table .hq-shortcode-attribute strong em {
+    color: #666;
+    font-weight: normal;
+    font-style: normal;
+}
+#hq-cheatsheet-screen table code {
+    display: block;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+body.hq-print-cheatsheet #wpadminbar,
+body.hq-print-cheatsheet #adminmenuback,
+body.hq-print-cheatsheet #adminmenuwrap,
+body.hq-print-cheatsheet #wpfooter { display: none; }
+body.hq-print-cheatsheet #wpcontent { margin: 0 0 0 30px; }
+#hq-cheatsheet-print-head { display: none; }
+body.hq-print-cheatsheet #hq-cheatsheet-print-head { display: inline-block; }
+body.hq-print-cheatsheet #hq-cheatsheet-print { display: none; }
